@@ -1,6 +1,6 @@
 package tommy.spring.board.vo;
 
-public class ArticleVO {
+public class ArticleVO { // 게시글을 나타내는 클래스
 	 private int id;
 	 
 	 public ArticleVO() {

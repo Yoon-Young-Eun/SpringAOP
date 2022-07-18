@@ -3,16 +3,17 @@ package tommy.spring.board.service;
 import tommy.spring.board.dao.ArticleDAO;
 import tommy.spring.board.vo.ArticleVO;
 
-public class WhiteArticleServiceImpl implements WhiteArticleService {
+//WhiteArticleService 인터페이스를 실제로 구현한 클래스 
+public class WriteArticleServiceImpl implements WriteArticleService { 
 	
 	
 	private ArticleDAO articleDao;
 	
-	public WhiteArticleServiceImpl() {
+	public WriteArticleServiceImpl() {
 	}
 	
 	
-	public WhiteArticleServiceImpl(ArticleDAO articleDao) {
+	public WriteArticleServiceImpl(ArticleDAO articleDao) {
 		this.articleDao = articleDao;
 	}
 

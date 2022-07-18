@@ -3,6 +3,7 @@ package tommy.spring.member.service;
 import tommy.spring.board.vo.MemberVO;
 import tommy.spring.member.vo.UpdateInfo;
 
+//MemberService 인터페이스를 구현한 클래스
 public class MemberServiceImpl implements MemberService {
 
 	@Override
